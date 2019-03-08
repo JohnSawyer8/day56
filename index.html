@@ -6,15 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Teachable Machine Boilerplate</title>
 
-		<base href="/1541/">
+		 <base href="/1538/"> 
 
        <script type="text/javascript">
        	//FIXME
         document.head.innerHTML = document.head.innerHTML + "<base href='" + document.location.href + "' />";
     </script>
 </head>
+<script src="/socket.io/socket.io.js"></script>
+
 <body>
 
 	<script src="dist/build.js"></script>
+  <ul id="messages"></ul>
+    <form action="">
+      <input id="m" autocomplete="off" /><button>Send</button>
+    </form>
 </body>
 </html>
